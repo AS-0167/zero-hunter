@@ -18,13 +18,6 @@ void compare_stopping_criteria(Function f, Function g, Derivative df, double a, 
                               double x0, double x1, double tolerance, 
                               int max_iterations);
 
-// Fixed-point transformation functions
-double g1(double x) { return x - f1(x); }
-double g2(double x) { return x - f2(x); }
-double g3(double x) { return x - f3(x); }
-double g4(double x) { return x - f4(x); }
-double g5(double x) { return x - f5(x); }
-
 int main() {
     int choice;
     double a, b, x0, x1, tolerance;
